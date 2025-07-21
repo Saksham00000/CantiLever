@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="icon" type="image" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo"><a href="index.html"><img src="logo.png" height="75vh" width="75vh" alt="Blog Logo"></a>
+            </h1>
+            <nav class="nav">
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="category.html" class="nav-link">Categories</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="login.html" class="nav-link">Login/Sign up</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="hero">
+            <video autoplay muted loop id="background-video">
+                <source src="bg.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="hero-content">
+                <h2>Welcome to Awesome Blog!</h2>
+                <p>Explore articles on technology, lifestyle, travel, and more.</p>
+                <button class="btn"><a href="category.html" style="color: white;">Read Latest Posts</a></button>
+            </div>
+        </section>
+
+        <section class="featured-slider-section">
+            <div class="container">
+                <h3>Featured Posts</h3>
+                <div class="slider-container">
+                    <div class="slider-track">
+                        <div class="slider-slide">
+                            <img src="first.png" alt="Featured Post 1">
+                            <div class="slide-caption">
+                                <h4>The Rise of Quantum Computing</h4>
+                                <p>A deep dive into the next generation of computing power.</p>
+                                <a href="#" class="read-more">Learn More &rarr;</a>
+                            </div>
+                        </div>
+                        <div class="slider-slide">
+                            <img src="second.png" alt="Featured Post 2">
+                            <div class="slide-caption">
+                                <h4>Mindful Travel: Exploring Consciously</h4>
+                                <p>How to make your journeys more impactful and sustainable.</p>
+                                <a href="#" class="read-more">Discover More &rarr;</a>
+                            </div>
+                        </div>
+                        <div class="slider-slide">
+                            <img src="third.png" alt="Featured Post 3">
+                            <div class="slide-caption">
+                                <h4>Mastering Remote Work Productivity</h4>
+                                <p>Strategies to stay focused and effective while working from home.</p>
+                                <a href="#" class="read-more">Read Tips &rarr;</a>
+                            </div>
+                        </div>
+                        <div class="slider-slide">
+                            <img src="forth.png" alt="Featured Post 3">
+                            <div class="slide-caption">
+                                <h4>Efficient, Clean, Maintainable Code</h4>
+                                <p>Write code that's faster, easier to understand, and simpler to update.</p>
+                                <a href="#" class="read-more">Read Tips &rarr;</a>
+                            </div>
+                        </div>
+                        <div class="slider-slide">
+                            <img src="fifth.png" alt="Featured Post 3">
+                            <div class="slide-caption">
+                                <h4>Quick & Flavorful Weeknight Meals</h4>
+                                <p>Discover five simple, delicious dinners that make busy evenings a breeze.</p>
+                                <a href="#" class="read-more">Read Tips &rarr;</a>
+                            </div>
+                        </div>
+                        <div class="slider-slide">
+                            <img src="sixth.png" alt="Featured Post 3">
+                            <div class="slide-caption">
+                                <h4>Stronger Mind, Greater Success</h4>
+                                <p>Cultivate mental toughness and conquer challenges in life and work.</p>
+                                <a href="#" class="read-more">Read Tips &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="slider-nav prev">&lt;</button>
+                    <button class="slider-nav next">&gt;</button>
+                    <div class="slider-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="blog-posts">
+            <div class="container">
+                <h3>Latest Articles</h3>
+                <div class="post-grid">
+                    <article class="blog-card">
+                        <img src="first.png" alt="Tech Gadgets" class="post-image">
+                        <div class="post-content">
+                            <h4><a href="#">The Future of AI in Everyday Life</a></h4>
+                            <p class="post-meta">By John Doe | July 15, 2025 | Tech</p>
+                            <p>Discover how artificial intelligence is transforming our daily routines, from smart homes
+                                to personalized experiences.</p>
+                            <a href="#" class="read-more">Read More &rarr;</a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card">
+                        <img src="second.png" alt="Travel Adventure" class="post-image">
+                        <div class="post-content">
+                            <h4><a href="#">10 Must-Visit Places for Solo Travelers</a></h4>
+                            <p class="post-meta">By Jane Smith | July 10, 2025 | Travel</p>
+                            <p>Embark on an unforgettable journey to these incredible destinations perfect for solo
+                                adventurers seeking new experiences.</p>
+                            <a href="#" class="read-more">Read More &rarr;</a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card">
+                        <img src="third.png" alt="Healthy Living" class="post-image">
+                        <div class="post-content">
+                            <h4><a href="#">Tips for a Healthier and Happier You</a></h4>
+                            <p class="post-meta">By Peter Jones | July 05, 2025 | Lifestyle</p>
+                            <p>Simple yet effective tips to improve your physical and mental well-being for a more
+                                fulfilling life.</p>
+                            <a href="#" class="read-more">Read More &rarr;</a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card">
+                        <img src="forth.png" alt="Coding Tips" class="post-image">
+                        <div class="post-content">
+                            <h4><a href="#">Optimizing Your Code: Best Practices</a></h4>
+                            <p class="post-meta">By Alice Brown | June 28, 2025 | Tech</p>
+                            <p>Learn essential techniques and best practices to write cleaner, more efficient, and
+                                maintainable code.</p>
+                            <a href="#" class="read-more">Read More &rarr;</a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card">
+                        <img src="fifth.png" alt="Delicious Food" class="post-image">
+                        <div class="post-content">
+                            <h4><a href="#">5 Easy & Delicious Weeknight Dinners</a></h4>
+                            <p class="post-meta">By Chef Emily | June 20, 2025 | Food</p>
+                            <p>Whip up these quick and tasty meals that are perfect for busy evenings without
+                                sacrificing flavor.</p>
+                            <a href="#" class="read-more">Read More &rarr;</a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card">
+                        <img src="sixth.png" alt="Growth Mindset" class="post-image">
+                        <div class="post-content">
+                            <h4><a href="#">Building a Resilient Mindset for Success</a></h4>
+                            <p class="post-meta">By Mark Davis | June 12, 2025 | Self-Improvement</p>
+                            <p>Discover strategies to cultivate mental toughness and overcome challenges in your
+                                personal and professional life.</p>
+                            <a href="#" class="read-more">Read More &rarr;</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <button id="backToTopBtn" title="Go to top">↑</button>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Blog. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><img src="face-logo.png" alt="Facebook"></a>
+                <a href="#"><img src="x-logo.png" alt="X"></a>
+                <a href="#"><img src="insta-logo.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

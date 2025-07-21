@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories - Blog</title>
+    <link rel="icon" type="image" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo"><a href="index.html"><img src="logo.png" height="75vh" width="75vh" alt="Blog Logo"></a>
+            </h1>
+            <nav class="nav">
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="category.html" class="nav-link">Categories</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="login.html" class="nav-link">Login/Sign up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content page-content">
+        <section class="category-hero">
+            <video autoplay muted loop id="category-background-video">
+                <source src="category-bg.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="category-hero-content container">
+                <h2>Blog Categories</h2>
+                <p>Explore articles by various topics to find what interests you most.</p>
+            </div>
+        </section>
+
+        <section class="container category-listing-section">
+            <div class="category-grid">
+                <div class="category-card category-tech">
+                    <h3><a href="#">Technology</a></h3>
+                    <p>Latest in AI, gadgets, software, and digital trends.</p>
+                </div>
+                <div class="category-card category-current-affair">
+                    <h3><a href="#">Current Affair</a></h3>
+                    <p>Latest events, news, and general knowledge.</p>
+                </div>
+                <div class="category-card category-education">
+                    <h3><a href="#">Education</a></h3>
+                    <p>Education schemes, patterns, and systems.</p>
+                </div>
+                <div class="category-card category-lifestyle">
+                    <h3><a href="#">Lifestyle</a></h3>
+                    <p>Tips for healthy living, personal growth, and daily routines.</p>
+                </div>
+                <div class="category-card category-travel">
+                    <h3><a href="#">Travel</a></h3>
+                    <p>Guides, destinations, and adventure stories from around the world.</p>
+                </div>
+                <div class="category-card category-food">
+                    <h3><a href="#">Food & Recipes</a></h3>
+                    <p>Delicious recipes, cooking tips, and culinary adventures.</p>
+                </div>
+                <div class="category-card category-finance">
+                    <h3><a href="#">Finance</a></h3>
+                    <p>Insights into personal finance, investing, and economic trends.</p>
+                </div>
+                <div class="category-card category-health">
+                    <h3><a href="#">Health & Fitness</a></h3>
+                    <p>Workouts, nutrition, and wellness advice for a balanced life.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Blog. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><img src="face-logo.png" alt="Facebook"></a>
+                <a href="#"><img src="x-logo.png" alt="X"></a>
+                <a href="#"><img src="insta-logo.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
